@@ -1,0 +1,34 @@
+#box{
+    background-color: aqua;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+
+}
+/* pseudo classes */
+
+#box:hover {
+background-color: blue;
+}
+
+a:visited {
+color: green;
+
+}
+
+/*pseudo elements*/
+
+#element{
+font-size: 27px;
+
+}
+
+#element::before{
+
+    content: "****";
+}
+
+#element::after{
+
+    content: "---------";
+}

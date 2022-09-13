@@ -1,0 +1,114 @@
+/* 
+
+1.backgraound
+2.text align
+3.z-index
+4.style link & lists  
+
+
+
+
+*/
+
+body{
+
+    background-image: url("https://webneel.com/wallpaper/sites/default/files/images/08-2018/1-nature-wallpaper-grass-hd.preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+#title{
+/*background-color: powderblue;*/
+text-align: center;
+}
+
+p{
+    text-align: justify;
+    background-color: aqua;
+    padding: 0.5rem;
+
+}
+
+#p1{
+   /* position:absolute;*/
+    width: 50%;
+    background-color: blueviolet;
+    z-index: 1009;
+
+}
+#p2{
+    /*position:absolute;*/
+    width: 70%;
+    background-color: brown;
+    z-index: 1008;
+
+}
+
+#button{ 
+    background-color: blue;
+    color:white;
+    padding: 0.5rem:;
+    /*text-decoration:none;*/
+
+}
+
+ul{
+
+    background-color: magenta;
+    padding: 2rem;
+
+}
+
+li{
+background-color: antiquewhite;
+padding: 1rem;
+margin: 1rem;
+list-style-type: upper-roman;
+
+}
+
+#box{
+    
+    /*min-width: 50vw;
+    min-height: 50vw;*/
+     max-height: 50vw;
+     min-height: ;
+
+    background-color: blueviolet;
+}
+
+#setdisplay{
+    background-color: brown;
+    padding: 1rem;
+    margin: 1rem;
+    display: inline;
+}
+
+#abc{
+    background-color: red;
+}
+
+#line1{
+
+    display: block;
+}
+
+
+#line2{
+    margin: 5rem;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+}
+    
+
+
+#line3{
+
+    display: none;
+}
+    
+

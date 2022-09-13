@@ -1,0 +1,99 @@
+
+
+#gridcontainer{
+       background-color: aqua;
+       padding: 1rem;
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr; /*repeat() assignment*/
+       grid-template-rows: 70px 70px 70px 70px 70px;
+       gap: 10px;
+       justify-content: center;
+
+}
+
+.item{
+
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+
+
+
+}
+
+/*--------grid property for child----------*/
+
+#item13{
+
+    grid-column-start: 4;
+    grid-column-end: 5;
+    /*grid-column: 4/5;*/
+    grid-row-start: 2;
+    grid-row-end: 3;
+    /*grid-row: 2/3;*/
+}
+
+
+#item14{
+
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+
+#item15{
+
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+
+#item16{
+
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+
+#item18{
+
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+    /*grid-row-start: 4;
+    grid-row-end: 5;*/
+}
+
+
+
+    
+    
+    /*result screen*/
+
+
+    #item1{
+        background-color: azure;
+        color: gray;
+        padding: 0.5rem;
+        text-align: right;
+
+        grid-column-start: 1;
+        grid-column-end: 5;
+    
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+
+    

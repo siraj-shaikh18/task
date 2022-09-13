@@ -1,0 +1,92 @@
+/*CSS Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Passion+One&family=Playfair+Display+SC&display=swap');
+
+#title{
+    font-family:  'Passion One', cursive;
+
+
+}
+
+.box h1{
+    font-family: 'Playfair Display SC', serif;
+}
+
+.box p{
+
+    font-family: 'Playfair Display SC', serif;
+}
+
+#float{
+
+    background-color: blueviolet;
+    padding: 3rem;
+    margin: 3rem 0;
+    float: right;
+    /*text-align: right;*/
+}
+
+/*--------------------------------css position----------------------------*/
+/*1.Relative*/
+
+#relative{
+background-color: aqua;
+padding: 2rem;
+margin: 2rem;
+height: 9rem;
+
+}
+
+#relative p{
+
+    background-color: white;
+    border: 2px slateblues;
+    position: relative;
+     left: 5rem;
+    /*right: 5rem;*/
+     top: 4rem;
+    /*bottom: 3rem;*/
+}
+
+/*2.Absolute*/
+
+#absolute{
+ background-color: aqua;
+padding: 2rem;
+margin: 2rem;
+height: 8rem;
+
+}
+
+  #absolute p {
+     background-color:green;
+    border: 2px gold;
+    position:absolute;
+    top: 5rem;
+    right: 5rem;
+}
+
+/*3.fixed*/
+
+ #marquee{
+    position: fixed;
+    bottom: 0;
+    
+}
+
+/* 4.sticky*/
+  #sticky{
+    position: sticky;
+    top: 5rem;
+}
+
+/* 5.static ---default flow of html */
+#static{
+  position: static;
+}
+
+
+
+
+
+/* 5. static*/
+

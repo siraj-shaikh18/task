@@ -1,0 +1,41 @@
+body{
+    background-color: aqua;
+}
+#type::after{
+  content: "Laptop/Desktop";
+  font-size: 3rem;
+}
+
+
+
+/*--------------------------------------------*/
+
+@media only screen and  (min-width:600px) and (max-width:720px) {
+    /*--normal css */
+    body{
+     background-color: blue;
+     font-size: 2rem;
+     
+    }
+
+    #type::after{
+        content: "Tab";
+        }
+        
+}
+
+/*--for small screen----*/
+
+@media only screen and (max-width:600px) {
+    /*--normal css */
+    body{
+     background-color: hotpink;
+     font-size: 1rem;
+    
+      }
+
+      #type::after (max-width: 600px;) {
+        content: "Mobile";
+        }
+        
+}

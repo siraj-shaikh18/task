@@ -1,0 +1,47 @@
+.box{
+
+    background-color: aqua;
+    border: solid blanchedalmond;
+   
+}
+
+#box1{
+
+width: 200px;
+height: 200px;
+
+}
+
+
+#box2{
+
+    width: 20%;
+    height: 20%;
+    
+    }
+
+    
+#box3{
+/* 1em=16px */
+    width: 10em;
+    height: 10em;
+    font-size: 2em;
+    
+    }
+
+    #box4{
+        /* 1rem=16px -responsiv em */
+            width: 10rem;
+            height:10rem;
+            font-size: 2rem;
+            
+            }
+
+
+            
+#box5{
+
+    width: 30vw; /*viewport width*/
+    height: 30vh; /*viewport height*/
+   
+    }
